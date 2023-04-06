@@ -1,0 +1,749 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .logo img {
+    height: 30px;
+}
+
+header .list ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+
+header .list ul li a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+header .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+header .list span {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .list img {
+    height: 18.71px;
+}
+
+header .list img:nth-child(2) {
+    height: 20px;
+}
+
+.collection-section {
+    height: 70vh;
+    width: 100%;
+    background-image: url("./images/banner.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.collection-section .container {
+    padding: 40px;
+    margin: 50px 0px 0px 70px;
+    width: 36%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.collection-section .container h1 {
+    font-size: 39px;
+    color: white;
+    text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+.collection-section .container p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: arial;
+}
+
+/* sign in section  */
+
+.collection-section .container button {
+    margin-top: 20px;
+    font-size: 10px;
+    height: 24px;
+    width: 88px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #492214;
+    border: 1px solid #492214;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.collection-section .container button:hover {
+    background-color: #492214;
+    color: white;
+}
+
+.logos {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f4f0;
+}
+
+.logos img {
+    height: 55px;
+}
+
+
+
+.aboutus {
+    padding: 50px 70px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutus.image {
+    padding: 20px 0px 20px 20px;
+}
+
+.aboutus img {
+    height: 420px;
+}
+
+.aboutus .text {
+    padding: 30px 0;
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.aboutus .text h2 {
+    color: #492214;
+    font-size: 40px;
+}
+
+.aboutus .text p {
+    font-size: 12px;
+    line-height: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #727272;
+}
+
+.aboutus .text button {
+    margin-top: 20px;
+    font-size: 11px;
+    height: 30px;
+    width: 90px;
+    font-weight: 600;
+    background-color: #e8d2c1;
+    color: #492214;
+    border: none;
+    border-radius: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.aboutus .text button:hover {
+    background-color: #492214;
+    color: white;
+}
+
+
+
+.service {
+    padding: 50px 100px;
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service .text {
+    padding: 60px 0px;
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.service .text h2 {
+    color: #492214;
+    font-size: 30px;
+}
+
+.service .text p {
+    width: 100%;
+    line-height: 17px;
+    font-size: 11.5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #727272;
+}
+
+.service .text button {
+    margin-top: 20px;
+    font-size: 11px;
+    height: 33px;
+    width: 100px;
+    font-weight: 600;
+    background-color: #e8d2c1;
+    color: #492214;
+    border: none;
+    border-radius: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.service .text button:hover {
+    background-color: #492214;
+    color: white;
+}
+
+.service img {
+    height: 400px;
+}
+
+.service2-div {
+    padding: 50px 100px;
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service2-div .text-div {
+    padding: 60px 0px;
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.service2-div .text-div h2 {
+    color: #492214;
+    font-size: 30px;
+}
+
+.service2-div .text-div p {
+    width: 100%;
+    line-height: 17px;
+    font-size: 11.5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #727272;
+}
+
+.service2-div .text-div button {
+    margin-top: 20px;
+    font-size: 11px;
+    height: 33px;
+    width: 100px;
+    font-weight: 600;
+    background-color: #e8d2c1;
+    color: #492214;
+    border: none;
+    border-radius: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.service2-div .text-div button:hover {
+    background-color: #492214;
+    color: white;
+}
+
+.service2-div img {
+    height: 400px;
+}
+
+
+
+.trends-section{
+    width: 100%;
+    height: 140px;
+    background-image: url("./images/wooden\ bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trends-section h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.trends-section p {
+    color: white;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.trends-section button {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    font-size: 12px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.signup-section {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup-section h1 {
+    font-size: 30px;
+}
+
+.signup-section p {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #727272;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.signup-section a {
+    margin-top: 18px;
+    width: 39%;
+    height: 42px;
+    overflow: hidden;
+}
+
+.signup-section input {
+    padding: 0 10px;
+    width: 83%;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #727272;
+}
+
+.signup-section button {
+    width: 17%;
+    height: 40px;
+    font-size: 12px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #492214;
+}
+
+
+
+.footer-section{
+    padding: 0px 100px;
+    width: 100%;
+    height: 35vh;
+    background-color: #492214;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-section img {
+    height: 35px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    line-height: 25px;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-section div {
+    display: none;
+}
+
+.service2-div {
+    display: none;
+}
+
+
+
+.footer-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8D2C1;
+    height: 56px;
+}
+.footer-last p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+@media (max-width: 320px) {
+    header .list ul {
+        display: none;
+    }
+
+    .logos img {
+        height: 28px;
+    }
+
+    .aboutus {
+        margin: 0;
+        padding: 10px 10px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .aboutus img {
+        height: 320px;
+    }
+
+    .aboutus .text{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .service{
+        display: none;
+    }
+
+    .service2-div {
+        display: block;
+    }
+
+    .service2-div {
+        margin: 20px 0;
+        padding: 10px 10px;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .service2-div img {
+        height: 320px;
+    }
+
+    .service2-div .text-div {
+        width: 100%;
+        padding: 10px 10px;
+        margin: 0;
+    }
+
+    .signup-section {
+        width: 100%;
+    }
+
+    .signup-section a {
+        width: 90%;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .signup-section a input {
+        width: 200px;
+    }
+
+    .signup-section a button {
+        width: 80px;
+    }
+
+    .footer-section {
+        width: 100%;
+        height: 340px;
+        padding: 20px 0;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ul-div {
+        display: none;
+    }
+
+    .footer-section .footerlist-div {
+        padding: 20px 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+@media(min-width:320px) and (max-width:480px) {
+    header {
+        padding: 0 15px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .list ul {
+        display: none;
+    }
+
+    .logos img {
+        height: 28px;
+    }
+
+    .aboutus{
+        padding: 20px 20px;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .aboutus img {
+        height: 190px;
+    }
+
+    .aboutus .text {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .service {
+        display: none;
+    }
+
+    .service2-div {
+        padding: 10px 10px;
+        margin: 0;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .service2-div img {
+        margin-top: 30px;
+        height: 190px;
+    }
+
+    .service2-div .text-div {
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .signup-section {
+        width: 100%;
+    }
+
+    .signup-section a {
+        width: 90%;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .signup-section a input {
+        width: 200px;
+    }
+
+    .signup-section a button {
+        width: 80px;
+    }
+
+    .footer-section {
+        width: 100%;
+        height: 340px;
+        padding: 20px 0;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ul-div {
+        display: none;
+    }
+
+    .footer-section .footerlist-div {
+        padding: 20px 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
+@media(min-width:481px) and (max-width:768px) {
+    header {
+        padding: 0 10px;
+    }
+
+    header .list span {
+        display: none;
+    }
+
+    header .logo img {
+        height: 20px;
+    }
+
+    header .list ul {
+        gap: 10px;
+    }
+
+    .logos img {
+        height: 37px;
+    }
+
+    .aboutus {
+        padding: 20px 20px;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .aboutus img {
+        height: 190px;
+    }
+
+    .aboutus .text {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .service {
+        display: none;
+    }
+
+    .service2-div {
+        padding: 30px 10px;
+        margin: 0;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .service2-div img {
+        height: 190px;
+    }
+
+    .service2-div .text-div {
+        width: 100%;
+    }
+
+    .signup-section {
+        width: 100%;
+    }
+
+    .signup-section a {
+        width: 90%;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .signup-section a input {
+        width: 200px;
+    }
+
+    .signup-section a button {
+        width: 80px;
+    }
+
+    .footer-section {
+        width: 100%;
+        height: 340px;
+        padding: 20px 0;
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ul-div {
+        display: none;
+    }
+
+    .footer-section .footerlist-div {
+        padding: 20px 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
